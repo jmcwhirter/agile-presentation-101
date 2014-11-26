@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Agile 101</h1>
+				</section>
+
+				<section>
+					<h2>Manifesto</h2>
+					<p class="fragment"><span class="fragment highlight-green">Individuals and interactions</span><span class="fragment"> over processes and tools</span></p>
+					<p class="fragment"><span class="fragment highlight-green">Working software</span><span class="fragment"> over comprehensive documentation</span></p>
+					<p class="fragment"><span class="fragment highlight-green">Customer collaboration</span><span class="fragment"> over contract negotiation</span></p>
+					<p class="fragment"><span class="fragment highlight-green">Responding to change</span><span class="fragment"> over following a plan</span></p>
+					<br>
+					<p class="fragment">That is, while there is value in the items on	the right, we value the items on the left more.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Agile Methods</h2>
+						<p>Extreme Programming - Software quality is #1</p>
+						<p>Lean - Eliminate waste</p>
+						<p>Kanban - Limit work in progress (WIP)</p>
+						<p class="fragment highlight-current-blue">Scrum - Embrace inevitable change</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Terminology</h2>
+						<p></p>
+					</section>
+					<section>
+						<h2>User Story</h2>
+						<p>
+							<ul>
+								<li>Written for or by business users in every day language</li>
+								<li>Captures the who, what and why</li>
+							</ul>
+						</p>
+						<br>
+						<p>Example:</p>
+						<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+								As a &lt;role&gt;, I want &lt;goal/desire&gt; so that &lt;benefit&gt;
+						</code></pre>
+					</section>
+					<section>
+						<h2>Product Backlog</h2>
+						<p>
+							<ul>
+								<li>The requirements</li>
+								<li>A list of all desired work on the project</li>
+								<li>Ideally expressed such that each item has value to the users or customers of the product</li>
+								<li>Prioritized by the product owner</li>
+								<li>Reprioritized at the start of each sprint</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Sprint Backlog</h2>
+						<p>A list of tasks identified by the Scrum team to be completed during the Scrum sprint</p>
+					</section>
+					<section>
+						<h2>Sprint</h2>
+						<p>A time period (typically 1–4 weeks) in which development occurs on a set of backlog items that the team has committed to. Also commonly referred to as a Time-box or iteration.</p>
+					</section>
+					<section>
+						<h2>Spring Goal</h2>
+						<p>A short statement of what the work will be focused on during the sprint</p>
+					</section>
+					<section>
+						<h2>Impediment</h2>
+						<p>Anything that prevents a team member from performing work as efficiently as possible.</p>
+					</section>
+					<section>
+						<h2>Release</h2>
+						<p>A working deployable software package that may be either public or private</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Roles</h2>
+						<p>
+						</p>
+					</section>
+					<section>
+						<h2>Product Owner</h2>
+						<p>
+							<ul>
+								<li>Define the features</li>
+								<li>Makes scope vs. schedule decisions</li>
+								<li>Responsible for achieving financial goals of the project</li>
+								<li>Prioritize the backlog</li>
+								<li>Adjust features and priority every sprint, as needed</li>
+								<li>Accept or reject work results</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Scrum Master</h2>
+						<p>
+							<ul>
+								<li>Responsible for enacting Scrum values and practices</li>
+								<li>Removes impediments</li>
+								<li>Coaches the team to their best possible performance</li>
+								<li>Helps improve team productivity in any way possible</li>
+								<li>Enable close cooperation across all roles and functions</li>
+								<li>Shield the team from external interference</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Team</h2>
+						<p>
+							<ul>
+								<li>Typically 5-9 people</li>
+								<li>Cross-functional (Programmers, testers, user experience designers, etc.)</li>
+								<li>Membership should change only between sprints</li>
+							</ul>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Ceremonies</h2>
+						<p></p>
+					</section>
+					<section>
+						<h2>Sprint planning</h2>
+						<p>
+							<ul>
+								<li>Who: Team, scrum master, product owner</li>
+								<li>Agenda: Discuss top priority backlog items; team selects what to do</li>
+								<li>Why: Know what will be worked on; understand it enough to start</li>
+								<li>Output: Sprint goal and backlog</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Sprint planning continuted</h2>
+						<p>
+							<ul>
+								<li>Team selects items from the product backlog they can commit to completing</li>
+								<li>Sprint backlog is created</li>
+								<li>Tasks are identified and each is estimated (1-16 hours)</li>
+								<li>Collaboratively, not done alone by the ScrumMaster</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Daily scrum meeting</h2>
+						<p>
+							<ul>
+								<li>Parameters: Daily, 15-minutes, Stand-up</li>
+								<li>Not for problem solving</li>
+								<li>Whole world is invited</li>
+								<li>Only team members, ScrumMaster, product owner, can talk</li>
+								<li>Helps avoid other unnecessary meetings</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Daily scrum meeting continued</h2>
+						<p>
+							<ol>
+								<li>What did you do yesterday?</li>
+								<li>What will you do today?</li>
+								<li>Is anything in your way?</li>
+							</ol>
+						</p><br>
+						<p>These <b>are not status</b> for the ScrumMaster</p>
+						<p>They <b>are commitments</b> in front of peers</p>
+					</section>
+					<section>
+						<h2>Sprint review</h2>
+						<p>
+							<ul>
+								<li>Team presents what it accomplished during the sprint</li>
+								<li>Typically takes the form of a demo of new features or underlying architecture</li>
+								<li>Whole team participates</li>
+								<li>Invite the world</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Sprint retrospective</h2>
+						<p>
+							<ul>
+								<li>Periodically take a look at what is and is not working</li>
+								<li>Typically around 30 minutes</li>
+								<li>Done after every sprint</li>
+								<li>Whole team participates: ScrumMaster, Product owner, Team, Possibly customers and others</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Retrospectives</h2>
+						<p>Many ways to do retrospective:
+							<ul>
+								<li>Asking Questions (simple list of questions)</li>
+								<li>Star Fish	(questions in 5 areas)</li>
+								<li>Happiness Index (rate mood)</li>
+								<li>5 Times Why (root cause analysis)</li>
+								<li>Others...</li>
+							</ul>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Scrum in action</h2>
+					<a class="image" href="http://35qk152ejao6mi5pan29erbr9.wpengine.netdna-cdn.com/wp-content/uploads/2013/05/Scrum_Framework.jpg" target="_blank">
+						<img width="800" src="http://35qk152ejao6mi5pan29erbr9.wpengine.netdna-cdn.com/wp-content/uploads/2013/05/Scrum_Framework.jpg" alt="Meny">
+					</a>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
